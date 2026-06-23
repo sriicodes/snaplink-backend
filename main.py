@@ -25,7 +25,6 @@ cache = redis.from_url(
     os.getenv("REDIS_URL"),
     decode_responses=True
 )
-
 # Simulate 3 server nodes
 hash_ring = ConsistentHashRing()
 hash_ring.add_node("node-1")
