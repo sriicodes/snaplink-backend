@@ -58,7 +58,7 @@ def shorten_url(request: ShortenRequest, db: Session = Depends(get_db)):
 
     return {
         "original_url": request.url,
-        "short_url": f"http://localhost:8000/{short_code}",
+       "short_url": f"https://snaplink-xn19.onrender.com/{short_code}",
         "short_code": short_code,
         "assigned_node": assigned_node
     }
