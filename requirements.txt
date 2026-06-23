@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+redis
+psycopg2-binary
+pydantic
+python-dotenv
+locust
